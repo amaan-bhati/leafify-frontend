@@ -106,7 +106,7 @@ export const Header = () => {
       </h1>
       <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
         Leafify is dedicated to identifying medicinal plants using advanced pre-trained data. 
-        Our platform empowers you to explore the benefits of nature's remedies with ease and accuracy.
+        Our platform empowers you to explore the benefits of natures remedies with ease and accuracy.
       </p>
     </div>
   );

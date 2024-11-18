@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
-import { IconUpload } from "@tabler/icons-react";
+// import { IconUpload } from "@tabler/icons-react";
 import { useDropzone } from "react-dropzone";
 
 const mainVariant = {
@@ -136,7 +136,7 @@ export const FileUpload = ({
                   damping: 20,
                 }}
                 className={cn(
-                  "relative group-hover/file:shadow-2xl z-40 bg-white dark:bg-neutral-900 flex items-center justify-center h-32 mt-4 w-full max-w-[8rem] mx-auto rounded-md",
+                  "relative group-hover/file:shadow-2xl z-40 bg-neutral-700 dark:bg-neutral-900 flex items-center justify-center h-32 mt-4 w-full max-w-[8rem] mx-auto rounded-md",
                   "shadow-[0px_10px_50px_rgba(0,0,0,0.1)]"
                 )}
               >
@@ -144,13 +144,13 @@ export const FileUpload = ({
                   <motion.p
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
-                    className="text-neutral-600 flex flex-col items-center"
+                    className="text-white flex flex-col items-center"
                   >
                     Drop it
-                    <IconUpload className="h-4 w-4 text-neutral-600 dark:text-neutral-400" />
+                    Upload Image
                   </motion.p>
                 ) : (
-                  <IconUpload className="h-4 w-4 text-neutral-600 dark:text-neutral-300" />
+                  <span className="text-white dark:text-neutral-300">Upload Image</span>
                 )}
               </motion.div>
             )}

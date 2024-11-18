@@ -1,5 +1,5 @@
 "use client";
-// import { FileUpload } from "./ui/file-upload";
+import { FileUpload } from "./ui/file-upload";
 import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
 export function RedirectSection() {
   const words = [

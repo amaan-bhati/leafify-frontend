@@ -1,5 +1,5 @@
 "use client";
-import { FileUpload } from "./ui/file-upload";
+// import { FileUpload } from "./ui/file-upload";
 import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
 export function RedirectSection() {
   const words = [
@@ -22,7 +22,7 @@ export function RedirectSection() {
   ];
   return (
     <div className="flex flex-col items-center justify-center h-[40rem]  ">
-        {/* <FileUpload/> */}
+        <FileUpload/>
       <p className="text-green-600 dark:text-neutral-200 text-xs sm:text-base  ">
         Every small step towards sustainability matters
       </p>

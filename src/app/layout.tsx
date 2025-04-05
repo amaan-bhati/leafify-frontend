@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Leaafify",
+  title: "plantasia",
   description: "A platform that recognizes and provides information on medicinal plants.",
 };
 

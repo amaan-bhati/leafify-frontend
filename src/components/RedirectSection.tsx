@@ -31,9 +31,9 @@ export function RedirectSection() {
         <button className="w-40 h-10 rounded-xl bg-green-600 border dark:border-white border-transparent text-white text-sm hover:bg-green-700">
           Calculate Impact
         </button>
-        <button className="w-40 h-10 rounded-xl bg-white text-green-600 border border-green-600 text-sm hover:bg-green-50">
+        <a href="https://docs.google.com/document/d/1SU0t14ZAWjq03iRihK428cc9Y28zFLvU/edit?usp=drive_link&ouid=107776829735195756553&rtpof=true&sd=true" className="w-40 h-10 rounded-xl bg-white text-green-600 border border-green-600 text-sm hover:bg-green-50">
           Learn More
-        </button>
+        </a>
       </div>
     </div>
   );
